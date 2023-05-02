@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Welcome_Screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FD0F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Welcome_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="WELCOME TO YOUR TASK ELIMINATOR"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/badges_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Badges"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:iconTint="#000000"
+        android:textSize="27sp"/>
+    <Button
+        android:id="@+id/calendar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="200dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Calendar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:iconTint="#000000"
+        android:textSize="27sp"/>
+
+    <ListView
+        android:id="@+id/list_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
